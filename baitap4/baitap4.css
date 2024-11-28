@@ -17,9 +17,6 @@ header{
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        .logo{
-            
-        }
         .menu{
             
             ul{
@@ -37,11 +34,21 @@ header{
     gap: 30px;
     margin: auto;
     margin-top: 30px;
-    width: 60%;
+    width: 70%;
     text-align: center;
-    .thumbnail{
+    h1{
+        font-size: 3rem;
     }
 }
+}
+.side{
+    max-width: 80%;
+}
+.section_1{
+    background-color: white;
+    .top{
+        
+    }
 }   
 /* laptop */
 @media screen and ( min-width: 1025px){
