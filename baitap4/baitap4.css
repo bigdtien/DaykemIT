@@ -43,3 +43,16 @@ header{
     }
 }
 }   
+/* laptop */
+@media screen and ( min-width: 1025px){
+
+    
+}
+/* tablet */
+@media screen and (min-width: 741px) and (max-width: 1024px) {
+    
+}
+/* mobile */
+@media screen and (max-width: 740px) {
+    
+}
