@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200801/pngtree-purple-abstract-background-fluid-gradient-with-wave-forms-image_375467.jpg);
+    background-size: 100% 100%;
+    background-repeat: none;
+}
+form{
+    h1{
+        color: white;
+    }
+    width: 55%;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    border-radius: 8px;
+    .left {
+        img {
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+    }
+    .form-container{
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0 , 0, 0.4 );
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        gap: 15px;
+        .input-container{
+            width: 100%;
+            position: relative;
+            .fa-user{
+                position: absolute;
+                transform: translateY(65%);
+                right: 13px;
+            }
+            .fa-key{
+                position: absolute;
+                transform: translateY(65%);
+                right: 13px;
+            }
+        }
+        input, button{
+            width: 100%;
+            padding: 10px;
+            border-radius: 45px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+        .link{
+            display: flex;
+            gap: 25px;
+            
+        }
+        .social{
+            border-radius: 6px;
+        }
+        button{
+            color: white;
+            background-color: blue;
+            border: none;
+        }
+        a{
+            color: white;
+        }
+    }
+    hr{
+        width: 100%;
+    }
+}

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-image:  url(https://s3-alpha-sig.figma.com/img/46a0/d217/c2bd7d5ef2cfc0e9c3123a65be598575?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HoAKnIwrurd95WctIj2IWIEaQ8tlu~-EtVMEhdW6xPq3rXWwsmXM0m9v48sydg81CBdyEjljdwMfmpZnBUHZHGpeHx4OkkY6GPE-CVpfNUI9YRFGWin3dc69Q7RDIthyPxMNLdENage9bPP8RjUUk2p6VZWZohKlO-Dz1GONc7lPnsBL~F0mi5EW8-ITZzFeqbeUViEg9q82kHJVvdA--QUNIBhgH7skeVR9UqAvCFxhBjXxHViskbZb36IczQaAZvLHg5Si3m143eAO1mm6LfP7W7z0sihwzpEBzkivwveFq0DCX-3weqWGvn7QBsbozOzdEywRF662rhKuq0qNnQ__) ;
+    background-repeat: none;
+    background-size: cover;
+    padding: 10px 30px;
+    .head-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .logo{
+            
+        }
+        .menu{
+            
+            ul{
+                color: white;
+                display: flex;
+                list-style: none;
+                gap: 25px;
+            }
+        }
+    }
+.thumbnail-nav{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    text-align: center;
+    .thumbnail{
+    }
+}
+}   

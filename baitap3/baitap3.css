@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: none;
+    background-image: url(https://s3-alpha-sig.figma.com/img/869a/8c79/e44842e0a95b96aa69948da3009e4d5e?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Jc9vMt-tHgiWGdCR-Z0fJjS2ZpywT0WTbIsT4AHtQTPaczpKG6v3fBRdcdrYPSYH4C0jUAOl2p8Vgp-qsLB5foFU39hJ6XJokjMyQPmwMYb3HEMg6njyoiEuvV6zwDqgK1zx6oAUeCol9~fw~Vo7CRl977Gt6qIwtOrMKI-nP53vGOPfsuwRi57ns~kvLcSAFknldWPckPgLhhRJSf0vkcGr4B8pa0mzF3fdkCUwSd5tUexcbeBKIbrlPFTrBUyRrYpTBCb-BEC~4GGp2ctUpyMom9yHwV2Tu7L0YBX~35oGrpFaIqz-~FpV2QI9QVRqlW0S9X3Z1gAyyFfMqfgy0A__);
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #51C8BC;
+    border-radius: 26px;
+    width: 80%;
+    .left-form{
+        position: relative;
+        .vr-image{
+            position: absolute;
+            right: 0;
+            transform:  scale(1.5);
+            object-fit: cover;
+            z-index: 10;
+
+        }
+        
+        h1{
+            color: white;
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+            width: 80%;
+        }
+        .vr-logo{
+            top: 10px;
+            right: 10px;
+            img{
+                padding-left: 15px;
+                padding-top: 15px;
+                width: 70px;
+            }
+        }
+    }
+    .right-form{
+        background-color: white;
+        border-radius: 26px;
+        padding-top: 45px;
+        position: relative;
+        select{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border: none;
+        }
+        .signin-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 35px;
+            position: relative;
+            gap: 15px;
+            input, button{
+                color: #BEBCBC;
+                padding: 10px;
+                border: 1px solid #F3F3F3;
+                outline: none;
+            }
+            button{
+                color: white;
+                background-color: #3BADCD;
+                border-radius: 5px;
+            }
+            .box_1{
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+            .box{
+                color: #BEBCBC;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+            .signin-with{
+                display: flex;
+                width: 80%;
+                justify-content: space-between;
+                .google, .facebook{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    a{
+                        color: black;
+                    }
+                    img{
+                        height: 27px;
+                        width: 23px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    .fa-bars{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        gap: 10px;
+        color: #FA793C;
+        
+    }
+    .pages{
+        display: flex;
+        gap: 30px;
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 1025px) {
+    
+}
+/* tablet */
+@media screen and (min-width: 741px) and (max-width: 1024px) {
+    
+}
+/* mobile */
+@media screen and (max-width: 740px) {
+    ul{
+        display: none !important;
+    }
+
+    .fa-bars{
+        display: block;
+    }
+}
