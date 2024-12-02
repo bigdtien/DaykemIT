@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+header{
+    .px-1{
+        top: -5px;
+        left: 15px;
+        height: 20px;
+        min-width: 20px
+    }
+}
