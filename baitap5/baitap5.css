@@ -14,4 +14,7 @@ header{
         height: 20px;
         min-width: 20px
     }
+    .hero-header{
+        background-image: url(https://themewagon.github.io/fruitables/img/hero-img.jpg);
+    }
 }
